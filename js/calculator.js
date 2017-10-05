@@ -42,3 +42,11 @@ var BMI = function(mass, heightSquare) {
 };
 
 alert(BMI(mass, heightSquare));
+
+var celsius = parseInt(prompt("What is the temperature in Celsius"));
+
+var conversion = function(celsius) {
+	return celsius * 1.8 + 32;
+};
+
+alert(conversion(celsius));
